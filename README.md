@@ -17,8 +17,8 @@ python -m torch.distributed.launch         \
     --max_input_length_in_sec 20           \
     --common_voice_subset     zh-TW        \
     --group_by_length                      \
-    --tokenize_config voidful/wav2vec2-lar \
-    --xlsr_config     facebook/wav2vec2-xl
+    --tokenize_config voidful/wav2vec2-large-xlsr-53-tw-gpt \
+    --xlsr_config     facebook/wav2vec2-xls-r-300m
 ```
 
 ## sweep usage
