@@ -18,7 +18,7 @@ python -m torch.distributed.launch         \
     --common_voice_subset     zh-TW        \
     --group_by_length                      \
     --tokenize_config voidful/wav2vec2-lar \
-    --xlsr_config     facebook/wav2vec2-xl \
+    --xlsr_config     facebook/wav2vec2-xl
 ```
 
 ## sweep usage
